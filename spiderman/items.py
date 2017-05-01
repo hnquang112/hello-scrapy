@@ -20,3 +20,9 @@ class MarryItem(scrapy.Item):
     avatar = scrapy.Field()
     published_time = scrapy.Field()
     modified_time = scrapy.Field()
+
+class CompanyItem(scrapy.Item):
+    name = scrapy.Field()
+    link = scrapy.Field()
+    address = scrapy.Field()
+    phone = scrapy.Field()
